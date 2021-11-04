@@ -27,8 +27,8 @@ export function TaskList() {
     };
 
     setTasks([
+      ...tasks,
       newTask,
-      ...tasks
     ]);
 
     setNewTaskTitle('');
